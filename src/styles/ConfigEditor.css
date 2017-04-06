@@ -1,0 +1,65 @@
+.ConfigEditor {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 320px;
+    color: #fff;
+    font-size: 12px;
+    background: #444;
+}
+
+.ConfigEditor h2 {
+    font-size: 14px;
+    margin: 0;
+    padding: 7px 12px;
+    background-color: #000;
+}
+
+.ConfigEditor__sub {
+    margin-left: 0;
+    background: rgba(0, 0, 0, .35);
+}
+
+.ConfigEditor__section,
+.ConfigEditor__group {
+    border-top: 1px solid #000;
+}
+
+.ConfigEditor__section input {
+    background-color: #000;
+    border-width: 0;
+    color: #ddd;
+    padding: 5px 9px;
+}
+
+.ConfigEditor__section input:focus {
+    outline: 0;
+}
+
+.ConfigEditor__row {
+    padding: 7px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ConfigEditor__row label {
+    width: 40%;
+}
+.ConfigEditor__row input,
+.ConfigEditor__row select {
+    width: 56%;
+}
+
+.ConfigEditor__row--double label {
+    width: 18%;
+}
+.ConfigEditor__row--double input,
+.ConfigEditor__row--double select {
+    width: 28%;
+}
+
+.ConfigEditor__section__title {
+    font-size: 12px;
+    margin: 0;
+    padding: 7px 12px;
+}
